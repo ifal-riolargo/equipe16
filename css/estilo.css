@@ -1,0 +1,50 @@
+body{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.logo{
+    margin: 0 10px 0 0;
+}
+.menu{
+    color: #ffffff;
+    word-spacing: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    
+}
+.junta-menu{
+    word-spacing: 10px;
+    color: #ffffff;
+}
+.imagem-esquerdo{
+    float: left;
+    margin: 0 100px 100px 200px;
+}
+.paragrafo-direito{
+    margin-right: 200px;
+    text-align: justify;
+}
+.imagem-direito{
+    float: right;
+    margin: 200px 100px 100px 0;
+}
+.paragrafo-esquerdo{
+    margin-left: 200px;
+    text-align: justify;
+}
+.titulo-paragrafo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+hr{
+    clear: both;
+}
+</style>
