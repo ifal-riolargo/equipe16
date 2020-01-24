@@ -36,7 +36,7 @@ body{
 
 .imagem-esquerdo{
     float: left;
-    margin: 0 100px 0 200px;
+    margin: 50px 100px 0 200px;
 }
 
 .paragrafo-direito{
@@ -46,7 +46,7 @@ body{
 
 .imagem-direito{
     float: right;
-    margin: 0px 200px 0 100px;
+    margin: 0 200px 0 100px;
 }
 
 .paragrafo-esquerdo{
@@ -73,4 +73,8 @@ hr{
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;
+}
+.titulo-artigo{
+    font-weight: bold;
+    font-size: 20px;
 }
