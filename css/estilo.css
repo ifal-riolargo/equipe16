@@ -19,7 +19,7 @@ body{
     word-spacing: 30px;
     font-size: 25px;
     text-align: center;
-    background-color: black;
+    background-color: #2e2b2b;
     
 }
 
@@ -36,7 +36,9 @@ body{
 
 .imagem-esquerdo{
     float: left;
-    margin: 50px 100px 0 200px;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-block-end: 100px;
 }
 
 .paragrafo-direito{
@@ -46,7 +48,9 @@ body{
 
 .imagem-direito{
     float: right;
-    margin: 0 200px 0 100px;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-block-end: 100px;
 }
 
 .paragrafo-esquerdo{
@@ -69,7 +73,7 @@ hr{
     color: #ffffff;
     justify-content: flex-end;
 }
-#pagina-oquee{
+.pagina-com-margem{
     text-align: justify;
     margin-left: 200px;
     margin-right: 200px;

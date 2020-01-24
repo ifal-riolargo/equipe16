@@ -2,7 +2,7 @@
 <html lang="pt-bt">
 <head>
     <meta charset="utf-8">
-    <title>Cadastrar Anúncio de Vaga</title>
+    <title>Cadastrar Artigo</title>
 
     <link href="css/estilo.css"
             type="text/css"
@@ -32,18 +32,19 @@
             <a href = "cadastros.html" class="junta-menu">Realizar cadastros</a> |
     </p>
 
-    <h2>Cadastrar Anúncio de Vaga</h2>
-
+<div class="pagina-com-margem">    
     <form method = "get">
         
-        <p>Nome da vaga: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
-        <p>Nome da empresa: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
-        <p>Local: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
-        <p>Descrição da vaga: <textarea name = "comments" cols = "80" rows = "3" > </textarea></p>
-        <p>Link para mais informações: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
+        <input type="checkbox" name="treinadores" value="do-blog"> Artigo do blog
+        <input type="checkbox" name="treinadores" value="outros"> Outro artigo 
+        <p>Título do artigo: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
+        <p>Teaser: <textarea name = "comments" cols = "80" rows = "3" > </textarea></p>
+        <p>Link para acessar o artigo completo: <textarea name = "comments" cols = "80" rows = "1" > </textarea></p>
 
         <input type="submit" value="Salvar">
     </form>
+
+</div>
 
     <br>
 
